@@ -27,9 +27,9 @@
 
 	// Reemplazá estos valores de ejemplo por los datos reales del negocio.
 	const CONTACTO = {
-		whatsapp: '549XXXXXXXXXX', // Código de país + número, solo dígitos y sin el signo +.
-		facebook: 'https://www.facebook.com/tu_pagina',
-		instagram: 'https://www.instagram.com/tu_usuario/'
+		whatsapp: '+54 9 2233 47-2933', // Código de país + número, solo dígitos y sin el signo +.
+		facebook: 'https://www.facebook.com/share/1EpydHESBC/',
+		instagram: 'https://www.instagram.com/tiendaanube?utm_source=qr&stkn=MTN4cWo4cml3NXdxMw=='
 	};
 	const claveCanasta = 'tiendaa-nube-canasta';
 	const formatoPrecio = new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS', maximumFractionDigits: 0 });
