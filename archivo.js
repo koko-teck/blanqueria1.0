@@ -10,24 +10,45 @@
 		'alfombras-colores': null,
 		'ropa-de-cama-gris': null,
 		'textiles-cama-tonos-pastel': null,
-		'acolchado-tonos-calidos': null
+		'acolchado-tonos-calidos': null,
+		'juego-de-sabanas': null,
+		'toalla-stich': null,
+		'sbanas-con-bordados': null,
+		'sabanas-premium': null,
+		'conjuntos-de-sabanas': null,
+		'juego-de-sabanas': null,
+		'almohadas-con-memoria': null,
+		'toalla-goku': null,
+		'toalla-capibara': null,
 	};
 
 	const productos = [
 		{ id: 'acolchado-multicolor', nombre: 'Acolchado multicolor', tipo: 'Acolchados', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/acolchado-multicolor.jpg', imagenAlt: 'Acolchado multicolor extendido sobre una cama', video: '' },
 		{ id: 'ropa-de-cama-turquesa', nombre: 'Ropa de cama turquesa', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/ropa-de-cama-turquesa.jpg', imagenAlt: 'Cama cubierta con ropa de cama turquesa', video: '' },
-		{ id: 'toallones-colores', nombre: 'Toallones en varios colores', tipo: 'Toallas', descripcion: 'Consultá precio y colores disponibles.', imagen: 'imagenes/productos/toallones-colores.jpg', imagenAlt: 'Toallones exhibidos en varios colores', video: '' },
+		
 		{ id: 'ropa-de-cama-rosa', nombre: 'Ropa de cama rosa', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/ropa-de-cama-rosa.jpg', imagenAlt: 'Cama con ropa de cama en tonos rosas', video: '' },
 		{ id: 'frazadas-apiladas', nombre: 'Frazadas en varios colores', tipo: 'Frazadas', descripcion: 'Consultá precio y colores disponibles.', imagen: 'imagenes/productos/frazadas-apiladas.jpg', imagenAlt: 'Frazadas dobladas en varios colores', video: '' },
 		{ id: 'alfombras-colores', nombre: 'Alfombras en varios colores', tipo: 'Alfombras', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/alfombras-colores.jpg', imagenAlt: 'Alfombras exhibidas en varios colores', video: '' },
 		{ id: 'ropa-de-cama-gris', nombre: 'Ropa de cama gris', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/ropa-de-cama-gris.jpg', imagenAlt: 'Cama cubierta con ropa de cama gris', video: '' },
-		{ id: 'textiles-cama-tonos-pastel', nombre: 'Textiles para cama en tonos pastel', tipo: 'Ropa de cama', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/textiles-cama-tonos-pastel.jpg', imagenAlt: 'Textiles para cama doblados en tonos pastel', video: '' },
-		{ id: 'acolchado-tonos-calidos', nombre: 'Acolchado en tonos cálidos', tipo: 'Acolchados', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/acolchado-tonos-calidos.jpg', imagenAlt: 'Acolchado en tonos marrones sobre una cama', video: '' }
+		
+		{ id: 'acolchado-tonos-calidos', nombre: 'Acolchado en tonos cálidos', tipo: 'Acolchados', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/acolchado-tonos-calidos.jpg', imagenAlt: 'Acolchado en tonos marrones sobre una cama', video: '' },
+		{ id: 'juego-de-sabanas', nombre:'Juego de sábanas', tipo:'Ropa de cama', descripcion:'Consultá precio, colores y medidas disponibles.', imagen:'imagenes/productos/1.jpg', imagenAlt:'Juego de sábanas', video:''},
+		{ id: 'sbanas-con-bordados', nombre:'Sábanas con bordados', tipo:'Ropa de cama', descripcion:'Consultá precio, colores y medidas disponibles.', imagen:'imagenes/productos/6.jpg', imagenAlt:'Sábanas con bordados', video:''},
+		{ id: 'sabanas-premium', nombre:'Sábanas premium', tipo:'Ropa de cama', descripcion:'Consultá precio, colores y medidas disponibles.', imagen:'imagenes/productos/7.jpg', imagenAlt:'Sábanas premium', video:''},
+		
+		{ id: 'conjuntos-de-sabanas', nombre:'Conjuntos de sábanas', tipo:'Ropa de cama', descripcion:'Consultá precio, colores y medidas disponibles.', imagen:'imagenes/productos/8.jpg', imagenAlt:'Conjuntos de sábanas', video:''},
+		{ id: 'almohadas-con-memoria', nombre:'Almohadas con memoria', tipo:'Almohadas', descripcion:'Consultá precio y colores disponibles.', imagen:'imagenes/productos/20.jpg', imagenAlt:'Almohadas con memoria', video:''},
+		{ id: 'textiles-cama-tonos-pastel', nombre: 'Bata de baño', tipo: 'Toallas', descripcion: 'Consultá precio, colores y medidas disponibles.', imagen: 'imagenes/productos/textiles-cama-tonos-pastel.jpg', imagenAlt: 'Textiles para cama doblados en tonos pastel', video: '' },
+		{ id: 'toallones-colores', nombre: 'Toallones en varios colores', tipo: 'Toallas', descripcion: 'Consultá precio y colores disponibles.', imagen: 'imagenes/productos/toallones-colores.jpg', imagenAlt: 'Toallones exhibidos en varios colores', video: '' },
+		{ id: 'toalla-stich', nombre:'Toalla Stich', tipo:'Toallas', descripcion:'Consultá precio y colores disponibles.', imagen:'imagenes/productos/12.jpg', imagenAlt:'Toalla con diseño de Stich', video:''},
+		{ id: 'toalla-goku', nombre:'Toalla Goku', tipo:'Toallas', descripcion:'Consultá precio y colores disponibles.', imagen:'imagenes/productos/13.jpg', imagenAlt:'Toalla con diseño de Goku', video:''},
+		{ id: 'toalla-capibara', nombre:'Toalla Capibara', tipo:'Toallas', descripcion:'Consultá precio y colores disponibles.', imagen:'imagenes/productos/10.jpg', imagenAlt:'Toalla con diseño de Capibara', video:''},
+		
 	];
 
 	// Reemplazá estos valores de ejemplo por los datos reales del negocio.
 	const CONTACTO = {
-		whatsapp: '+54 9 2233 47-2933', // Código de país + número, solo dígitos y sin el signo +.
+		whatsapp: '54 9 2233 47-2933', // Código de país + número, solo dígitos y sin el signo +.
 		facebook: 'https://www.facebook.com/share/1EpydHESBC/',
 		instagram: 'https://www.instagram.com/tiendaanube?utm_source=qr&stkn=MTN4cWo4cml3NXdxMw=='
 	};
